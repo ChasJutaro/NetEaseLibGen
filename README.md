@@ -1,4 +1,4 @@
-
+Last Update: Jan.13 2020
 
 # NetEaseLibGen
 Generate a unified view of your local NetEase Cloud Music library
@@ -36,8 +36,9 @@ The project is developed on OS X 10.15.2 Catalina using Python 3.7.
 
 
 **Possible Bugs**
- -  The final library of my "test" library is missing 1 song. This will be fixed in the next commit.
- - Bugs arising due to multiple songs performed by different artists. i.e, a song by the original, and 2 other cover versions.
+ -  ~~The final library of my "test" library is missing 1 song. This will be fixed in the next commit.~~
+ - ~~Bugs arising due to multiple songs performed by different artists. i.e, a song by the original, and 2 other cover versions.~~
+ - cornercases of the above 2 categories that are not exposed with my library
 
 **TODO list**
 
@@ -45,6 +46,7 @@ The project is developed on OS X 10.15.2 Catalina using Python 3.7.
  - Make sure all songs are converted/processed
  - generate library according to artist/album/genre/production year(if all are present in the file)
 
+最后更新于：2019.1.13
 
 ***中文：***
 该 python 脚本会自动将网易云音乐的所有文件移动到新目录中，同时自动转换其中格式为 ncm 的文件并将转换后的文件移动至新目录中，以求达到自动整理你的音乐库的目的。
@@ -75,8 +77,9 @@ The project is developed on OS X 10.15.2 Catalina using Python 3.7.
 
 **可能存在的Bug**
 
- - 在使用我自己的曲库进行测试时，最终生成的曲库缺少了一首歌
- - 由于有多首同名的歌曲所导致的bug，例如当有原唱与2首翻唱歌曲时
+ - ~~在使用我自己的曲库进行测试时，最终生成的曲库缺少了一首歌~~
+ - ~~由于有多首同名的歌曲所导致的bug，例如当有原唱与2首翻唱歌曲时~~
+ - 由于我的曲库的局限性所无法暴露的属于上述2类的特殊情况
 
 **未来计划**
 
