@@ -100,9 +100,10 @@ def getType(music_list):
             flac += 1
         elif file_type == 'ncm':
             #test of destination directory
-            tmp = 'final-lib/' + fileName + '.ncm' 
-            if Path(tmp).is_file():
-                fileName += '(2)'
+            tmp_mp3 = 'final-lib/' + fileName + '.mp3' 
+            tmp_flac = 'final-lib/' + fileName + '.flac'
+            if Path(tmp_mp3).is_file() or Path(tmp_flac).is_file() :
+                fileName += '-NCM'
             #generate command to perform format conversion
             cmd = 'ncmdump' 
             sp.run([cmd, file_path])
