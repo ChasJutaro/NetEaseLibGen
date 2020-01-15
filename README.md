@@ -1,6 +1,6 @@
 Last Update: Jan.13 2020
 
-# NetEaseLibGen
+# NetEaseLibGen - Contact: zhao.lu@mail.utoronto.ca
 Generate a unified view of your local NetEase Cloud Music library
 
 ***English:***
