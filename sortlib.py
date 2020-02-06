@@ -1,7 +1,3 @@
-#remove the following 2 lines if your python doesnt have problem importing numpy
-import sys
-sys.path.append("/usr/local/lib/python3.7/site-packages")
-
 #i.e. the program starts here
 import subprocess as sp
 import os
