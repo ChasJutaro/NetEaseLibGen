@@ -32,7 +32,7 @@ The project is developed on OS X 10.15.2 Catalina using Python 3.7.
 
  - Windows 10 ( X )
 
- - Linux - Arch Linux based on the release version around Oct 2019. ( X )
+ - Linux - Arch Linux based on the release version around Oct 2019. ( **Tested** )
 
 
 **Possible Bugs**
@@ -73,7 +73,7 @@ The project is developed on OS X 10.15.2 Catalina using Python 3.7.
 
  - OS X（已测试）
  - Windows 10（未测试）
- - Linux - arch linux 基于 2019 年 10 月的版本（未测试）
+ - Linux - arch linux 基于 2020 年 5 月的版本（已测试）
 
 **可能存在的Bug**
 
@@ -83,6 +83,6 @@ The project is developed on OS X 10.15.2 Catalina using Python 3.7.
 
 **未来计划**
 
- - 于 Windows 与 Linux 平台上进行测试
+ - 于 Windows 平台上进行测试
  - 确保所有的歌曲都经过处理
  - 根据演唱者/专辑/流派/创作年份（ 在源文件提供所有信息的情况下）分类成曲库
